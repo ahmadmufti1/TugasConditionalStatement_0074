@@ -28,6 +28,7 @@ string BeratBadan(float berat){
     }
 }
 
+// Fungsi utama untuk menjalankan program
 int main()
 {
     cout << "-- Selamat Datang di Kalkulator BMI by Ahmad Aqilah Mufti --" << endl;
