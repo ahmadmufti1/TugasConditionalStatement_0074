@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Fungsi untuk input berat dan tinggi
 void Input(float &berat, float &tinggi)
 {
     cout << "Masukkan Berat Badan (kg) : ";
