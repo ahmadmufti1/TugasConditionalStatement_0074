@@ -15,6 +15,7 @@ float RumusBMI(float berat, float tinggi){
     return berat / (tinggi * tinggi);
 }
 
+// Fungsi untuk menentukan kategori berat badan berdasarkan BMI
 string BeratBadan(float berat){
     if (berat < 18.5) {
         return "Berat Badan Kurus";
