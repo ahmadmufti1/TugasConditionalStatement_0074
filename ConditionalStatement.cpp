@@ -24,3 +24,19 @@ string BeratBadan(float berat){
         return "Obesitas";
     }
 }
+
+int main()
+{
+    cout << "-- Selamat Datang di Kalkulator BMI by Ahmad Aqilah Mufti --" << endl;
+
+    float berat, tinggi;
+
+    Input(berat, tinggi);
+
+    cout << "-- Hasil Perhitungan BMI Anda --" << endl;
+    float bmi = RumusBMI(berat, tinggi);
+    cout << "BMI Anda adalah: " << bmi << endl;
+    cout << "Kategori Berat Badan: " << BeratBadan(bmi) << endl;
+
+    return 0;
+}
